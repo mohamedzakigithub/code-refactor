@@ -24,9 +24,9 @@ The web page in this repository was edited to follow the WCAG standars and code 
 
 A title was added to the page \<title> element with the company name.
 
-    <title>
-      Horiseon Social Solution Services, Inc. SEO & More.
-    </title>
+<title>
+  Horiseon Social Solution Services, Inc. SEO & More.
+</title>
 
 ### Use of semantic HTML tags
 
@@ -36,23 +36,23 @@ Example
 
 ```
 <!-- Header section including nav bar-->
-    <header class="header">
-      <h1>Hori<span class="seo">seo</span>n</h1>
-      <!-- Nav bar section inculding navigation links-->
-      <nav>
-        <ul>
-          <li>
-            <a href="#search-engine-optimization">Search Engine Optimization</a>
-          </li>
-          <li>
-            <a href="#online-reputation-management">Online Reputation Management</a>
-          </li>
-          <li>
-            <a href="#social-media-marketing">Social Media Marketing</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<header class="header">
+  <h1>Hori<span class="seo">seo</span>n</h1>
+  <!-- Nav bar section inculding navigation links-->
+  <nav>
+    <ul>
+      <li>
+        <a href="#search-engine-optimization">Search Engine Optimization</a>
+      </li>
+      <li>
+        <a href="#online-reputation-management">Online Reputation Management</a>
+      </li>
+      <li>
+        <a href="#social-media-marketing">Social Media Marketing</a>
+      </li>
+    </ul>
+  </nav>
+</header>
 ```
 
 ### Use of Alt attributes in all images
@@ -62,7 +62,7 @@ Alt attribute was added to all images in the page with a description of the pict
 Example
 
 ```
- <img class="main-image" src="assets/images/digital-marketing-meeting.jpg" alt="Digital Marketing Meeting" />
+<img class="main-image" src="assets/images/digital-marketing-meeting.jpg" alt="Digital Marketing Meeting" />
 ```
 
 ### Use of code comments
@@ -73,15 +73,15 @@ Example
 
 ```
 <!-- Footer section containing copyright notice -->
-  <footer>
-    <h2>Made with ❤️️ by Horiseon</h2>
-    <p>
-      &copy; 2019 Horiseon Social Solution Services, Inc.
-    </p>
-  </footer>
+<footer>
+  <h2>Made with ❤️️ by Horiseon</h2>
+  <p>
+    &copy; 2019 Horiseon Social Solution Services, Inc.
+  </p>
+</footer>
 ```
 
-### fixing broken links
+### Fixed broken link
 
 A link in the navigation bar was fixed as the target \<div> was missing the id.
 
