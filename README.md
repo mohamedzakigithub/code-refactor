@@ -55,7 +55,7 @@ Example
 
 ### Use of Alt attributes in all images
 
-Alt attribute was added to all images in the page with a description of the picture displayed. this will help users with restricted vision or blind to know what is displayed when using screenreaders software. A picture were added using the "content" property in CSS as a background, this pictures were changed and now uses the \<img> tag to enable the use of Alt attribute on it.
+Alt attribute was added to all images in the page with a description of the picture displayed. this will help users with restricted vision or blind to know what is displayed when using screenreader software. A picture were added using the "content" property in CSS as a background, this pictures were changed and now uses the \<img> tag to enable the use of Alt attribute on it.
 
 Example
 
@@ -71,12 +71,12 @@ Example
 
 ```
 <!-- Footer section containing copyright notice -->
-    <footer>
-      <h2>Made with ❤️️ by Horiseon</h2>
-      <p>
-        &copy; 2019 Horiseon Social Solution Services, Inc.
-      </p>
-    </footer>
+  <footer>
+    <h2>Made with ❤️️ by Horiseon</h2>
+    <p>
+      &copy; 2019 Horiseon Social Solution Services, Inc.
+    </p>
+  </footer>
 ```
 
 ### fixing broken links
@@ -87,11 +87,11 @@ Broken code
 
 ```
 <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
+  <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+  <h2>Search Engine Optimization</h2>
+  <p>
+    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+  </p>
 </div>
 
 ```
@@ -100,13 +100,13 @@ Fixed code
 
 ```
 <article id="search-engine-optimization" class="search-engine-optimization">
-        <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search Engine Optimization" />
-        <h2>Search Engine Optimization</h2>
-        <p>
-          The dominance of mobile internet use means that users are searching for the right business as they travel,
-          shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility
-          and find the right customers for your business.
-        </p>
+  <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search Engine Optimization" />
+  <h2>Search Engine Optimization</h2>
+  <p>
+    The dominance of mobile internet use means that users are searching for the right business as they travel,
+    shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility
+    and find the right customers for your business.
+  </p>
 </article>
 ```
 
