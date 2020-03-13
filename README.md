@@ -4,7 +4,7 @@
 
 The aim of this project is to refactor the company home page code ( HTML/CSS) to follow the Web Content Accessibility Guidelines (WCAG).
 
-[Click here to the view Page](https://mohamedzakigithub.github.io/homework-week1-code-refactor/)
+[Click here to the view Page](https://mohamedzakigithub.github.io/code-refactor/)
 
 ## Table of Contents
 
